@@ -1,0 +1,29 @@
+--this is the config for the controller display, edit this if the buttons do not match up.
+
+--to see what buttons are which go to start->controll pannel->game controllers, pick the controller and click properties then you can see by pressing the buttons
+--that is on windowsxp
+
+--on windows 7 open start menu and type joy.cpl then open it, select the controller and click properties
+
+--adjust this to adjust the max fps for the program(the more fps the more resources it will take up)
+maxFPS = 20
+
+--use this option if the dpad counts as a hat(this will override x/y_
+dpadHat = false
+--use this option if your dpad acts as the x/y axis
+dpadAxisXY = true
+
+--the button numbers for your controller (dont forget the quotes!)
+aButton = "2"
+bButton = "1"
+xButton = "4"
+yButton = "3"
+RButton = "6"
+LButton = "5"
+startButton = "8"
+selectButton = "7"
+--for dpad
+leftButton = ""
+rightButton = ""
+upButton = ""
+downButton = ""
